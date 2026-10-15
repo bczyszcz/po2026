@@ -1,3 +1,4 @@
+package agh.po.lab1;
 import java.util.Scanner;
 
 public class Main {
