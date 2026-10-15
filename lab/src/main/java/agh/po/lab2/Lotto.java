@@ -32,7 +32,6 @@ public class Lotto {
         */
         float a = System.currentTimeMillis();
         int proby = 1;
-
         while (true){
             int trafienia =0;
             for (int i = 0; i<6; i++) {
