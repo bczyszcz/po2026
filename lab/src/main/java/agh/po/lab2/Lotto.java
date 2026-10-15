@@ -32,9 +32,9 @@ public class Lotto {
         */
         float a = System.currentTimeMillis();
         int proby = 1;
-        int trafienia =0;
-        while (true){
 
+        while (true){
+            int trafienia =0;
             for (int i = 0; i<6; i++) {
                 int los = (int) Math.floor((Math.random() * 49) + 1);
                 boolean jest = lista.contains(los);
@@ -57,7 +57,6 @@ public class Lotto {
                 break;
             }
             else {
-                trafienia = 0;
                 proby +=1;
             }
         }
