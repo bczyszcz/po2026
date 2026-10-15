@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Lotto {
     public static void main(String[] args) {
-        ArrayList<Integer> lista = new ArrayList<>();
+
         //lista.add(7);
         //boolean jest = lista.contains(7);
         /*for (int i = 0; i<6; i++) {
@@ -33,6 +33,7 @@ public class Lotto {
         float a = System.currentTimeMillis();
         int proby = 1;
         while (true){
+            ArrayList<Integer> lista = new ArrayList<>();
             int trafienia =0;
             for (int i = 0; i<6; i++) {
                 int los = (int) Math.floor((Math.random() * 49) + 1);
